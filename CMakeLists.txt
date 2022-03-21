@@ -13,7 +13,7 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 find_package(OpenCL REQUIRED)
 include_directories(${OpenCL_INCLUDE_DIRS})
 link_directories(${OpenCL_LIBRARY})
-add_executable(test_cuda_opencl main.cu cxxtimer.hpp)
+add_executable(test_cuda_opencl main.cu cxxtimer.hpp vecAdd.cu vecAdd.cuh)
 
 set_target_properties(test_cuda_opencl PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
 target_include_directories (test_cuda_opencl PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CUDA
   "/home/jundafeng/CLionProjects/test_cuda_opencl/main.cu" "/home/jundafeng/CLionProjects/test_cuda_opencl/cmake-build-debug/CMakeFiles/test_cuda_opencl.dir/main.cu.o"
+  "/home/jundafeng/CLionProjects/test_cuda_opencl/vecAdd.cu" "/home/jundafeng/CLionProjects/test_cuda_opencl/cmake-build-debug/CMakeFiles/test_cuda_opencl.dir/vecAdd.cu.o"
   )
 set(CMAKE_CUDA_COMPILER_ID "NVIDIA")
 

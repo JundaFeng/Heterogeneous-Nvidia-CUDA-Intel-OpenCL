@@ -17,6 +17,10 @@ stack
 -
 
 /home/jundafeng/CLionProjects/test_cuda_opencl/main.cu
+vecAdd.cuh
+/home/jundafeng/CLionProjects/test_cuda_opencl/vecAdd.cuh
+
+/home/jundafeng/CLionProjects/test_cuda_opencl/vecAdd.cuh
 cstdio
 -
 cstdlib
@@ -36,8 +40,6 @@ CL/opencl.h
 cuda.h
 -
 cuda_runtime.h
--
-cuda_runtime_api.h
 -
 cxxtimer.hpp
 /home/jundafeng/CLionProjects/test_cuda_opencl/cxxtimer.hpp

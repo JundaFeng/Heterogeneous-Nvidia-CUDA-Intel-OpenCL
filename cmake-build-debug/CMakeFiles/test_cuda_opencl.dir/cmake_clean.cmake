@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_cuda_opencl.dir/cmake_device_link.o"
   "CMakeFiles/test_cuda_opencl.dir/main.cu.o"
+  "CMakeFiles/test_cuda_opencl.dir/vecAdd.cu.o"
   "test_cuda_opencl"
   "test_cuda_opencl.pdb"
 )

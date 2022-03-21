@@ -94,6 +94,12 @@
 		<Unit filename="/home/jundafeng/CLionProjects/test_cuda_opencl/main.cu">
 			<Option target="test_cuda_opencl"/>
 		</Unit>
+		<Unit filename="/home/jundafeng/CLionProjects/test_cuda_opencl/vecAdd.cu">
+			<Option target="test_cuda_opencl"/>
+		</Unit>
+		<Unit filename="/home/jundafeng/CLionProjects/test_cuda_opencl/vecAdd.cuh">
+			<Option target="test_cuda_opencl"/>
+		</Unit>
 		<Unit filename="/home/jundafeng/CLionProjects/test_cuda_opencl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

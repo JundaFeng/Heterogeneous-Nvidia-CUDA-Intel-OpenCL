@@ -153,6 +153,30 @@ main.cu.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cuda_opencl.dir/build.make CMakeFiles/test_cuda_opencl.dir/main.cu.s
 .PHONY : main.cu.s
 
+vecAdd.o: vecAdd.cu.o
+.PHONY : vecAdd.o
+
+# target to build an object file
+vecAdd.cu.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cuda_opencl.dir/build.make CMakeFiles/test_cuda_opencl.dir/vecAdd.cu.o
+.PHONY : vecAdd.cu.o
+
+vecAdd.i: vecAdd.cu.i
+.PHONY : vecAdd.i
+
+# target to preprocess a source file
+vecAdd.cu.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cuda_opencl.dir/build.make CMakeFiles/test_cuda_opencl.dir/vecAdd.cu.i
+.PHONY : vecAdd.cu.i
+
+vecAdd.s: vecAdd.cu.s
+.PHONY : vecAdd.s
+
+# target to generate assembly for a file
+vecAdd.cu.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cuda_opencl.dir/build.make CMakeFiles/test_cuda_opencl.dir/vecAdd.cu.s
+.PHONY : vecAdd.cu.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... vecAdd.o"
+	@echo "... vecAdd.i"
+	@echo "... vecAdd.s"
 .PHONY : help
 
 
