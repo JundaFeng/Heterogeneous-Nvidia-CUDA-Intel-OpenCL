@@ -1,6 +1,8 @@
 # Heterogeneous Nvidia (CUDA) and Intel (OpenCL) GPU Programming
 
-An experiment of using multiple GPUs from different vendors with different programming launguages, taking vector addition as an example.
+An experiment of using multiple GPUs from different vendors with different programming launguages, taking vector addition as an example. 
+
+The results show that the hybrid GPU scheme that uses NV dedicated GPU and Intel integrated GPU together is the fastest compared with the cases that uses CPU and one single GPU.
 
 # Total Time Improve
 Number of bytes in Giga: 1.44
@@ -25,7 +27,7 @@ Number of bytes in Giga: 1.44
 - Result on NVIDIA CUDA : 3.35544e+07
 - cuda_routine took 371 milliseconds
 
-## Hybrid GPU
+## Hybrid GPU (Fastest!)
 ### Methodology (Synchronization Diagram)
 ![](./method.png "_Synchronization Diagram_")
 ### Log
