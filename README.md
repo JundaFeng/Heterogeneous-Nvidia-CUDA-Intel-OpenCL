@@ -9,14 +9,14 @@ Number of bytes in Giga: 1.44
 
 ## CPU
 - Result on 11th Gen Intel(R) Core(TM) i9-11980HK @ 2.60GHz : 3.35544e+07
-- cpu_routine took ** 450 milliseconds **
+- cpu_routine took **450 milliseconds**
 
 ## Intel Integrated GPU
 - opencl_routine_memcpy_h2d_time took 58895 microseconds
 - opencl_routine_kernel_time took 37442 microseconds
 - opencl_routine_memcpy_d2h_time took 27718 microseconds
 - Result on Intel(R) OpenCL HD Graphics  : 3.35544e+07
-- opencl_routine took ** 530 milliseconds **
+- opencl_routine took **530 milliseconds**
 
 ## Nvidia GPU
 - cuda_routine_preprocess_time took 828 microseconds
@@ -25,7 +25,7 @@ Number of bytes in Giga: 1.44
 - cuda_routine_memcpy_d2h_time took 36614 microseconds
 - cuda_routine_postprocess_time took 5992 microseconds
 - Result on NVIDIA CUDA : 3.35544e+07
-- cuda_routine took ** 371 milliseconds **
+- cuda_routine took **371 milliseconds**
 
 ## Hybrid GPU (Fastest!)
 ### Methodology (Synchronization Diagram)
@@ -36,4 +36,4 @@ Number of bytes in Giga: 1.44
 - heterogeneous_overlap_routine_kernel_time took 3067 microseconds
 - heterogeneous_overlap_routine_memcpy_d2h_time took 26689 microseconds
 - Result on Intel(R) OpenCL HD Graphics + NVIDIA CUDA : 3.35544e+07
-- heterogeneous_overlap_routine took ** 327 milliseconds **
+- heterogeneous_overlap_routine took **327 milliseconds**
