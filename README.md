@@ -1,3 +1,7 @@
+# Heterogeneous Nvidia (CUDA) and Intel (OpenCL) GPU Programming
+
+An experiment of using multiple GPUs from different vendors with different programming launguages, taking vector addition as an example.
+
 # Total Time Improve
 Number of bytes in Giga: 1.44
 
